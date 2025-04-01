@@ -28,11 +28,19 @@ Dataset available at:
 https://thinknook.com/wp-content/uploads/2012/09/Sentiment-Analysis-Dataset.zip 
 ```
 
-**Important:** The dataset is **not included** in this repository. You need to provide your own dataset.
+**Important:** The dataset is **not included** in this repository. You need to download or provide your own dataset.
 
 The expected format is a CSV file with at least two columns:
 1.  A column containing the text data (e.g., named "SentimentText").
 2.  A column containing the numerical sentiment labels (e.g., named "Sentiment"). The code currently assumes binary classification where labels are convertible to integers (e.g., 0 for negative, 1 for positive).
+
+## Classification Report and Score
+Accuracy : 0.7686      
+|      |precision   | recall | f1-score  | support
+|  ----  | ----  |  ----  | ----  |----  |
+| 0  | 0.78     | 0.74     | 0.76   | 157670
+| 1  | 0.76     | 0.79     | 0.77   | 158053
+
 
 ## Requirements
 
